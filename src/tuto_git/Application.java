@@ -18,7 +18,10 @@ public class Application extends Frame {
 		Vue vue = new Vue();
 		modl.addObserver(vue);
 		vue.addActionListener(ctrl);
+
 		this.setTitle("tutorielRuby git");
+
+		
 		this.add(vue);
 		this.pack();
 		this.setVisible(true);
